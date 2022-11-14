@@ -4,11 +4,10 @@ public class Main {
         Dog dog = new Dog();
         Cat cat = new Cat();
 
-        System.out.print("The cat says: " );
+        dog.makeSound();
         cat.makeSound();
 
-        System.out.print("The dog says: " );
-        dog.makeSound();
+
 
     }
 }
