@@ -3,7 +3,6 @@ public abstract class Animal {
     private String name;
 
 
-    String makeSound(String sound){
-        return sound;
-    }
+    public abstract void makeSound();
+
 }
